@@ -1,73 +1,31 @@
-# Welcome to your Lovable project
+*Welcome to CodeSight Ai*
 
-## Project info
+About CodeSight AI
+Your intelligent, real-time coding partner designed to think with you, not for you.
 
-**URL**: https://lovable.dev/projects/fa346a08-a8ea-4ff2-80b0-4fcf53a8a4ad
+Whether you're stuck on a tricky bug, looking to refactor for elegance, or just want a second pair of eyes, CodeSight AI is here to help.
 
-## How can I edit this code?
+Think of it as a free alternative to Copilot and other paid AI coding assistants but with a sharper focus on interactive problem-solving, step-by-step explanations, and code that actually makes sense.
 
-There are several ways of editing your application.
+X.T Agent
+Deep, thoughtful analysis for complex problems that require careful consideration and detailed solutions.
 
-**Use Lovable**
+Sentinel Agent
+Lightning-fast suggestions for quick fixes and immediate feedback on your code.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/fa346a08-a8ea-4ff2-80b0-4fcf53a8a4ad) and start prompting.
+Universal Language Support
+CodeSight AI is capable of understanding and working with almost any programming language, making it your versatile coding companion regardless of your tech stack.
 
-Changes made via Lovable will be committed automatically to this repo.
+Supporting virtually all programming languages and frameworks
 
-**Use your preferred IDE**
+CodeSight AI is built to:
+Understand your code context deeply.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Provide clear, optimized solutions.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Teach as it solves, so you grow as a developer.
 
-Follow these steps:
+Keep your workflow seamless with its chat + code update interface.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/fa346a08-a8ea-4ff2-80b0-4fcf53a8a4ad) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Built with passion
+Developed by Aaron Frndz, this platform was made for coders who want professional-grade assistance without the paywall — great code should be within everyone's reach.
