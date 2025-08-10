@@ -1,6 +1,5 @@
-*Welcome to CodeSight Ai*
+#About CodeSight AI
 
-About CodeSight AI
 Your intelligent, real-time coding partner designed to think with you, not for you.
 
 Whether you're stuck on a tricky bug, looking to refactor for elegance, or just want a second pair of eyes, CodeSight AI is here to help.
