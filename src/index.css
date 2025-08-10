@@ -1,0 +1,210 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CodeSight AI Design System - Modern Coder Interface
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Core Interface Colors */
+    --background: 210 11% 96%;
+    --foreground: 215 25% 27%;
+
+    /* Panel & Card Colors */
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 27%;
+    --panel-bg: 210 11% 98%;
+    --panel-border: 215 10% 88%;
+
+    /* Interactive Elements */
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 27%;
+
+    /* Brand Colors - Professional Blue Palette */
+    --primary: 214 84% 56%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 214 84% 66%;
+    
+    --secondary: 215 10% 92%;
+    --secondary-foreground: 215 25% 27%;
+
+    /* Code Editor Colors */
+    --editor-bg: 215 28% 17%;
+    --editor-foreground: 214 20% 85%;
+    --editor-selection: 214 84% 56%;
+    --editor-line-number: 215 15% 55%;
+
+    /* Status & Feedback */
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 100%;
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Subtle Elements */
+    --muted: 215 10% 92%;
+    --muted-foreground: 215 15% 55%;
+    --accent: 214 84% 56%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Form Elements */
+    --border: 215 10% 88%;
+    --input: 215 10% 92%;
+    --ring: 214 84% 56%;
+
+    /* Design Tokens */
+    --radius: 0.75rem;
+    --radius-lg: 1rem;
+    --radius-xl: 1.5rem;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(214 84% 56%), hsl(214 84% 66%));
+    --gradient-subtle: linear-gradient(180deg, hsl(210 11% 98%), hsl(210 11% 96%));
+    --gradient-code: linear-gradient(180deg, hsl(215 28% 17%), hsl(215 28% 15%));
+
+    /* Shadows */
+    --shadow-elegant: 0 10px 30px -10px hsl(214 84% 56% / 0.3);
+    --shadow-soft: 0 2px 10px hsl(215 10% 88% / 0.5);
+    --shadow-glow: 0 0 40px hsl(214 84% 66% / 0.4);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-fast: all 0.15s ease-out;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Core Interface Colors - Dark Theme */
+    --background: 215 28% 15%;
+    --foreground: 214 20% 85%;
+
+    /* Panel & Card Colors */
+    --card: 215 28% 17%;
+    --card-foreground: 214 20% 85%;
+    --panel-bg: 215 28% 13%;
+    --panel-border: 215 15% 22%;
+
+    /* Interactive Elements */
+    --popover: 215 28% 17%;
+    --popover-foreground: 214 20% 85%;
+
+    /* Brand Colors - Enhanced for Dark Mode */
+    --primary: 214 84% 66%;
+    --primary-foreground: 215 28% 15%;
+    --primary-glow: 214 84% 76%;
+
+    --secondary: 215 15% 22%;
+    --secondary-foreground: 214 20% 85%;
+
+    /* Code Editor Colors */
+    --editor-bg: 215 28% 17%;
+    --editor-foreground: 214 20% 85%;
+    --editor-selection: 214 84% 66%;
+    --editor-line-number: 215 15% 55%;
+
+    /* Status & Feedback */
+    --success: 142 76% 46%;
+    --success-foreground: 215 28% 15%;
+    --warning: 38 92% 60%;
+    --warning-foreground: 215 28% 15%;
+    --destructive: 0 84% 70%;
+    --destructive-foreground: 215 28% 15%;
+
+    /* Subtle Elements */
+    --muted: 215 15% 22%;
+    --muted-foreground: 215 15% 65%;
+    --accent: 214 84% 66%;
+    --accent-foreground: 215 28% 15%;
+
+    /* Form Elements */
+    --border: 215 15% 22%;
+    --input: 215 15% 22%;
+    --ring: 214 84% 66%;
+
+    /* Gradients - Dark Mode */
+    --gradient-primary: linear-gradient(135deg, hsl(214 84% 66%), hsl(214 84% 76%));
+    --gradient-subtle: linear-gradient(180deg, hsl(215 28% 13%), hsl(215 28% 15%));
+    --gradient-code: linear-gradient(180deg, hsl(215 28% 17%), hsl(215 28% 19%));
+
+    /* Shadows - Dark Mode */
+    --shadow-elegant: 0 10px 30px -10px hsl(214 84% 66% / 0.5);
+    --shadow-soft: 0 2px 10px hsl(215 15% 22% / 0.8);
+    --shadow-glow: 0 0 40px hsl(214 84% 76% / 0.6);
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  /* Hide scrollbars but keep scrolling functionality */
+  .scrollbar-none {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+  }
+
+  .scrollbar-none::-webkit-scrollbar {
+    display: none; /* WebKit */
+  }
+
+  /* Custom themed scrollbars */
+  .custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: hsl(var(--primary) / 0.3) hsl(var(--muted) / 0.5);
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: hsl(var(--muted) / 0.5);
+    border-radius: var(--radius);
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: hsl(var(--primary) / 0.3);
+    border-radius: var(--radius);
+    border: 1px solid hsl(var(--background));
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--primary) / 0.5);
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-corner {
+    background: hsl(var(--muted) / 0.5);
+  }
+}
